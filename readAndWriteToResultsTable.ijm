@@ -15,3 +15,6 @@ for (m=0; m<majorArrayPlus10.length; m++){
     setResult("MajorPlus10", m, profile[m]);
 }
 updateResults;
+
+//save results table
+saveAs("Results",  saveDir + "_majorPlus10.csv");
