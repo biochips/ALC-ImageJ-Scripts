@@ -4,6 +4,8 @@ dirORIG = getDirectory("all images for study directory");
 dirSAVE = getDirectory("save dir");
 imList = getFileList(dirORIG); // all color channels and all positions
 
+setBatchMode(true);
+
 //open images with the right scene number and tile number
 //naming of scene numbers.  This creates a list that does not have a 01,02,03.. format and is instead 1,2,3
 
@@ -71,4 +73,5 @@ for(z=0; z<scenes.length; z++){
 	}
 }
 
+setBatchMode(false);
 
