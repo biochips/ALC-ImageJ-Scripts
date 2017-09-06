@@ -55,7 +55,7 @@ for(z=0; z<scenes.length; z++){
 			tempImageString = imList[i];
 
 			//open image if it is the correct color channel and scene number
-			if(indexOf(tempImageString,tempScene)>0 && indexOf(tempImageString,tempColor)>0){
+			if(indexOf(tempImageString,tempScene)>0 && indexOf(tempImageString,tempTile)>0){
 				//open the image
 				open( dirORIG+imList[i]);
 
